@@ -1,0 +1,56 @@
+{
+  "db": {
+    "survey": [
+      {
+        "context": "La empresa en general",
+        "questions": [
+          "¿Te gusta trabajar en MD Manufacturing?",
+          "¿Te sientes parte de MD Manufacturing?",
+          "¿Das lo mejor de ti para que el trabajo quede bien hecho?",
+          "¿Percibes que realmente las personas que aqui laboramos dan lo mejor de si?",
+          "¿Tus compañeros hablan bien de MD Manufacturing?"
+        ]
+      },
+      {
+        "context": "Condiciones de trabajo",
+        "questions": [
+          "¿MD Manufacturing se preocupa por minimizar las condiciones ambientales que impiden el desarrollo de tu trabajo?",
+          "¿MD Manufacturing brinda las herramientas necesarias para que realices tu trabajo?",
+          "¿Se le da la importancia a la higiene en los baños y disposicion de basura?",
+          "¿MD Manufacturing cuenta con la capacidad para atender emergencias?",
+          "En tu trabajo, ¿Sabes con quien dirigirte?"
+        ]
+      },
+      {
+        "context": "Desarrollo integral del trabajo",
+        "questions": [
+          "¿Se te estimula a ser mejor cada dia?",
+          "¿MD Manufacturing te establece programas de capacitacion?",
+          "¿MD Manufacturing te aporta o brinda sugerencias para el trabajo a realizar?",
+          "¿A medida que realizas tu trabajo emprendes cosas nuevas?",
+          "¿MD Manufacturing te brinda espacios para mejorar tu calidad de vida?"
+        ]
+      },
+      {
+        "context": "Compañeros y supervisores",
+        "questions": [
+          "¿Existen buenas relaciones entre tus compañeros de trabajo?",
+          "¿Tu jefe y/o otras jefaturas escuchan tus opiniones y sugerencias?",
+          "Si dejaras MD Manufacturing para ir a otra empresa, ¿extrañarias a tus compañeros?",
+          "¿Te sientes tranquilo cuando tienes que hablar con tu jefe y/o otras jefaturas?",
+          "¿El trato entre jefes y trabajadores esta basado en el respeto?"
+        ]
+      },
+      {
+        "context": "Comunicacion",
+        "questions": [
+          "¿La orientacion que te dan te es suficiente para realizar tu trabajo?",
+          "¿Estas informado de los objetivos de MD Manufacturing?",
+          "¿Entiendes facilmente lo que tu jefe quiere decir?",
+          "¿Consideras que la empresa te brinda opiniones y sugerencias para mejorar la realizacion de tu trabajo?",
+          "¿Te escuchan atentamente cuando tienes que preguntar?"
+        ]
+      }
+    ]
+  }
+}
