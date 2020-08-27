@@ -51,6 +51,22 @@
           "¿Te escuchan atentamente cuando tienes que preguntar?"
         ]
       }
+    ],
+    "areas": [
+      { "name": "Administracion" },
+      { "name": "Vigilancia" },
+      { "name": "Embarques" },
+      {
+        "name": "Produccion",
+        "subarea": {
+          "name": "Cuadrilla",
+          "subareas": [
+            { "name": "Erika" },
+            { "name": "Guadalupe" },
+            { "name": "Rosario" }
+          ]
+        }
+      }
     ]
   }
 }
