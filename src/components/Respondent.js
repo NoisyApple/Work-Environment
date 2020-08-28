@@ -7,6 +7,14 @@ export default class Respondent extends Component {
     selectedSubArea: 0,
   };
 
+  update = (area, subArea) => {
+    this.props.updateArea(area, subArea);
+  };
+
+  clear = () => {
+    this.setState({ selectedArea: 0, selectedSubArea: 0 });
+  };
+
   render() {
     let subAreasSelect = [];
 
@@ -20,9 +28,10 @@ export default class Respondent extends Component {
           <p>{`${name}:`}</p>
           <select
             value={this.state.selectedSubArea}
-            onChange={(e) =>
-              this.setState({ selectedSubArea: parseInt(e.target.value) })
-            }
+            onChange={(e) => {
+              this.setState({ selectedSubArea: parseInt(e.target.value) });
+              this.update(this.state.selectedArea, parseInt(e.target.value));
+            }}
           >
             {subareas.map(({ name }, i) => (
               <option key={i} value={i}>
@@ -40,9 +49,10 @@ export default class Respondent extends Component {
           <p>Area:</p>
           <select
             value={this.state.selectedArea}
-            onChange={(e) =>
-              this.setState({ selectedArea: parseInt(e.target.value) })
-            }
+            onChange={(e) => {
+              this.setState({ selectedArea: parseInt(e.target.value) });
+              this.update(parseInt(e.target.value), this.state.selectedSubArea);
+            }}
           >
             {this.state.areas.map(({ name }, i) => (
               <option key={i} value={i}>
