@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Survey from "./Survey";
+import DownloadButton from "./DownloadButton";
 
 export default class App extends Component {
   state = {
@@ -29,6 +30,7 @@ export default class App extends Component {
     if (this.state.survey.length != 0 && this.state.areas.length != 0)
       return (
         <div className="app">
+          <DownloadButton />
           <Survey
             surveyIndex={this.state.surveyIndex}
             survey={this.state.survey}

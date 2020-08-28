@@ -32,11 +32,13 @@ export default class Survey extends Component {
   };
 
   scrollToTop = () => {
-    const c = document.documentElement.scrollTop || document.body.scrollTop;
-    if (c > 0) {
-      window.requestAnimationFrame(this.scrollToTop);
-      window.scrollTo(0, c - c / 8);
-    }
+    // const c = document.documentElement.scrollTop || document.body.scrollTop;
+    // if (c > 0) {
+    //   window.requestAnimationFrame(this.scrollToTop);
+    //   window.scrollTo(0, c - c / 4);
+    // }
+
+    window.scrollTo(0, 0);
   };
 
   submitSurvey = () => {

@@ -16,6 +16,34 @@ body {
   margin: 10px;
 }
 
+.download-button {
+  padding: 10px;
+  width: 100%;
+  background: #aaa8;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  button {
+    width: 100%;
+    background: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px #3338;
+    outline: none;
+
+    &:hover {
+      background: darken(cornflowerblue, 10);
+    }
+
+    &:active {
+      background: darken(cornflowerblue, 20);
+    }
+  }
+}
+
 .survey {
   background: #aaa8;
   padding: 10px;
